@@ -1,7 +1,7 @@
 {
     "builds": [{
         "src": "music_genres_classification/wsgi.py",
-        "use": "@vecel/python",
+        "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.10" }
 
     }],
