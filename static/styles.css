@@ -1,0 +1,30 @@
+    label {
+        color: #ebebeb; /* Red color */
+    }
+
+    /* Google Fonts  */
+ @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+body{
+  height: calc(100vh - 8em);
+  top: 0;
+  right: 0;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: #001524;
+}
+
+  
+
+.elementTyper::after {
+  content: '|' !important;
+  margin-left: 5px !important;
+  animation: blink 0.7s infinite !important;;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
