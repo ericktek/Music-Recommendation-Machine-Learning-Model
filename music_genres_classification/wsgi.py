@@ -15,4 +15,3 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_genres_classification.set
 
 application = get_wsgi_application()
 
-app = application
