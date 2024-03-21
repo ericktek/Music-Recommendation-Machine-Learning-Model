@@ -1,0 +1,13 @@
+asgiref==3.7.2
+Django==5.0.3
+django-appconf==1.0.6
+django-compressor==4.4
+joblib==1.3.2
+numpy==1.26.4
+rcssmin==1.1.1
+rjsmin==1.2.1
+scikit-learn==1.4.1.post1
+scipy==1.12.0
+sqlparse==0.4.4
+threadpoolctl==3.4.0
+tzdata==2024.1
